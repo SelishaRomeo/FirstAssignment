@@ -6,6 +6,13 @@ public class Projectone {
         regular='a';
         premium='b';
 
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Choose the suitable plan for you: a-Regular plan OR b-premium plan");
+        
+
+
+
+
     }
 
 }
