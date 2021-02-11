@@ -19,14 +19,17 @@ public class QuestionTwo {
                 count++;
 
                 if (rannum == num) {
-                    System.out.println("You won");
+                    System.out.println("Congratulations!!! You won :>)");
+                    break;
                 } else if (rannum > num) {
                     System.out.println("The number is higher");
                 } else
                     System.out.println("The number is lower");
             }while(count<limit);
 
-            System.out.println("You Lose");
+            if (count==limit&&rannum!=num){
+            System.out.println("You Lose. Please try again");
+            }
 
     }
 }
